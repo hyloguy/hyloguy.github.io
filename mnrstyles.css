@@ -1,13 +1,27 @@
+header {
+  text-align: center;
+  background: url('PinkSaturday2013.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  height: 200px;
+}
+h1 {
+  font-family: 'Philosopher', sans-serif;
+}
 body {
   text-align: center;
-  background: url("http://upload.wikimedia.org/wikipedia/commons/f/fe/Golden_Fog%2C_San_Francisco.jpg");
-  background-size: cover;
-  background-position: center;
+  background: black;
   color: white;
   font-family: helvetica;
 }
-p {
-  font-size: 22px;
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
 }
 input {
   border: 0;
@@ -17,4 +31,10 @@ input {
 input[type="submit"] {
   background: red;
   color: white;
+}
+.resume {
+  text-align: left;
+}
+.contact {
+  text-align: right;
 }
